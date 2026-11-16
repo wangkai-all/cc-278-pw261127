@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>仓库预览 · 预算内代表性抽样</title>
+<link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+<header class="topbar">
+  <div class="brand">仓库预览服务 <span class="tag">budgeted preview</span></div>
+  <div class="snapshot" id="snapshot-line">加载中…</div>
+</header>
+
+<main>
+  <section class="panel" id="controls">
+    <h2>新建预览</h2>
+    <form id="preview-form" class="grid">
+      <label>方法
+        <select id="method" name="method"></select>
+      </label>
+      <label>读取预算（记录）
+        <input id="budget" name="budget" type="number" min="20" max="20000" step="10" value="1200">
+      </label>
+      <label>每页条数
+        <input id="page-size" name="page_size" type="number" min="5" max="200" step="5" value="25">
+      </label>
+      <label>抽样种子
+        <input id="seed" name="seed" type="text" value="preview-v1" maxlength="128">
+      </label>
+      <label class="check"><input id="use-snapshot" type="checkbox"> 固定到当前快照</label>
+      <button type="submit" id="run">执行抽样</button>
+    </form>
+    <p class="hint" id="method-hint"></p>
+    <div class="actions">
+      <button type="button" id="refresh">刷新快照</button>
+      <button type="button" id="full-query">运行全量对照</button>
+      <button type="button" id="resume">恢复失败任务</button>
+    </div>
+    <div id="alerts" class="alerts"></div>
+  </section>
+
+  <section class="panel" id="status-panel" hidden>
+    <h2>任务</h2>
+    <div id="task-status" class="status-line"></div>
+    <div id="task-actions" class="actions"></div>
+    <div id="read-budget" class="meters"></div>
+  </section>
+
+  <section class="panel" id="sample-panel" hidden>
+    <div class="panel-head">
+      <h2>样本分页</h2>
+      <div class="pager">
+        <button id="prev" type="button">上一页</button>
+        <span id="page-label">–</span>
+        <button id="next" type="button">下一页</button>
+      </div>
+    </div>
+    <div id="page-meta" class="meta"></div>
+    <div class="table-wrap"><table id="rows"></table></div>
+    <p class="hint" id="token-note"></p>
+  </section>
+
+  <section class="panel" id="stats-panel" hidden>
+    <h2>预览统计（估计值）</h2>
+    <div id="stats-disclaimer" class="banner"></div>
+    <div class="table-wrap"><table id="kind-table"></table></div>
+  </section>
+
+  <section class="panel" id="coverage-panel" hidden>
+    <h2>覆盖与稀有类型</h2>
+    <div id="coverage-summary" class="meta"></div>
+    <div class="two-col">
+      <div><h3>分区覆盖缺口</h3><div class="table-wrap"><table id="partition-table"></table></div></div>
+      <div><h3>稀有类型覆盖</h3><div class="table-wrap"><table id="rare-table"></table></div></div>
+    </div>
+    <h3>新增分区 / 新增类型</h3>
+    <div id="new-since" class="meta"></div>
+  </section>
+
+  <section class="panel" id="compare-panel" hidden>
+    <h2>预览 vs 全量</h2>
+    <div id="compare-summary" class="meta"></div>
+    <div class="table-wrap"><table id="compare-table"></table></div>
+    <p class="hint" id="compare-note"></p>
+  </section>
+
+  <section class="panel" id="snapshots-panel">
+    <h2>快照与数据维护</h2>
+    <div class="table-wrap"><table id="snapshots"></table></div>
+    <div class="grid narrow">
+      <label>合并日期分区（逗号分隔）
+        <input id="merge-dates" type="text" placeholder="2026-11-14,2026-11-15">
+      </label>
+      <button type="button" id="merge">合并</button>
+    </div>
+    <div class="grid narrow">
+      <label>新增分区日期 <input id="new-date" type="text" value="2026-11-18"></label>
+      <label>新类型名 <input id="new-kind" type="text" value="flash_sale_probe"></label>
+      <label>权重 <input id="new-weight" type="number" value="0.03" min="0.001" max="1" step="0.001"></label>
+      <button type="button" id="add-partition">写入新分区</button>
+    </div>
+    <div id="maintenance-note" class="meta"></div>
+  </section>
+
+  <section class="panel" id="tasks-panel">
+    <h2>任务历史</h2>
+    <div class="table-wrap"><table id="tasks"></table></div>
+    <div id="events" class="events"></div>
+  </section>
+</main>
+
+<footer>
+  <p>预览统计始终是估计值；精确计数请运行全量查询。续页令牌绑定任务、快照、种子与预算，换页不会换样本。</p>
+</footer>
+
+<script src="/app.js"></script>
+</body>
+</html>

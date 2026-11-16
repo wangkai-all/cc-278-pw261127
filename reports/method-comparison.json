@@ -1,0 +1,1502 @@
+{
+  "full_counts": {
+    "add_to_cart": 29924,
+    "black_friday_doorbuster": 1038,
+    "chargeback_trace": 160,
+    "checkout": 21771,
+    "experiment_exposure": 7759,
+    "fraud_flag": 832,
+    "holiday_delivery_estimate": 373,
+    "page_view": 155544,
+    "pii_redaction_audit": 144,
+    "purchase": 15593,
+    "quarantine_replay": 205,
+    "refund": 4396,
+    "schema_migration": 511,
+    "search": 56238,
+    "session_end": 6369,
+    "shadow_replay": 33,
+    "vendor_timeout": 610
+  },
+  "methods": [
+    {
+      "budget": 20,
+      "channels": {
+        "representative": 20
+      },
+      "elapsed_ms": 9.5,
+      "estimates": {
+        "estimable": true,
+        "kinds": {
+          "add_to_cart": {
+            "estimate": 0.0,
+            "full": 29924,
+            "observed_any_channel": 0,
+            "observed_representative": 0,
+            "relative_error": -1.0
+          },
+          "black_friday_doorbuster": {
+            "estimate": 0.0,
+            "full": 1038,
+            "observed_any_channel": 0,
+            "observed_representative": 0,
+            "relative_error": -1.0
+          },
+          "chargeback_trace": {
+            "estimate": 0.0,
+            "full": 160,
+            "observed_any_channel": 0,
+            "observed_representative": 0,
+            "relative_error": -1.0
+          },
+          "checkout": {
+            "estimate": 13550.56,
+            "full": 21771,
+            "observed_any_channel": 1,
+            "observed_representative": 1,
+            "relative_error": -0.3776
+          },
+          "experiment_exposure": {
+            "estimate": 0.0,
+            "full": 7759,
+            "observed_any_channel": 0,
+            "observed_representative": 0,
+            "relative_error": -1.0
+          },
+          "fraud_flag": {
+            "estimate": 0.0,
+            "full": 832,
+            "observed_any_channel": 0,
+            "observed_representative": 0,
+            "relative_error": -1.0
+          },
+          "holiday_delivery_estimate": {
+            "estimate": 0.0,
+            "full": 373,
+            "observed_any_channel": 0,
+            "observed_representative": 0,
+            "relative_error": -1.0
+          },
+          "page_view": {
+            "estimate": 199870.79,
+            "full": 155544,
+            "observed_any_channel": 14,
+            "observed_representative": 14,
+            "relative_error": 0.285
+          },
+          "pii_redaction_audit": {
+            "estimate": 0.0,
+            "full": 144,
+            "observed_any_channel": 0,
+            "observed_representative": 0,
+            "relative_error": -1.0
+          },
+          "purchase": {
+            "estimate": 16938.2,
+            "full": 15593,
+            "observed_any_channel": 1,
+            "observed_representative": 1,
+            "relative_error": 0.0863
+          },
+          "quarantine_replay": {
+            "estimate": 0.0,
+            "full": 205,
+            "observed_any_channel": 0,
+            "observed_representative": 0,
+            "relative_error": -1.0
+          },
+          "refund": {
+            "estimate": 0.0,
+            "full": 4396,
+            "observed_any_channel": 0,
+            "observed_representative": 0,
+            "relative_error": -1.0
+          },
+          "schema_migration": {
+            "estimate": 0.0,
+            "full": 511,
+            "observed_any_channel": 0,
+            "observed_representative": 0,
+            "relative_error": -1.0
+          },
+          "search": {
+            "estimate": 54202.25,
+            "full": 56238,
+            "observed_any_channel": 3,
+            "observed_representative": 3,
+            "relative_error": -0.0362
+          },
+          "session_end": {
+            "estimate": 16938.2,
+            "full": 6369,
+            "observed_any_channel": 1,
+            "observed_representative": 1,
+            "relative_error": 1.6595
+          },
+          "shadow_replay": {
+            "estimate": 0.0,
+            "full": 33,
+            "observed_any_channel": 0,
+            "observed_representative": 0,
+            "relative_error": -1.0
+          },
+          "vendor_timeout": {
+            "estimate": 0.0,
+            "full": 610,
+            "observed_any_channel": 0,
+            "observed_representative": 0,
+            "relative_error": -1.0
+          }
+        }
+      },
+      "lines_read": 91,
+      "method": "stratified",
+      "new_kinds": [],
+      "planned": 20,
+      "rare_kinds": [],
+      "rare_observed": [],
+      "read_amplification": 4.55,
+      "rows": 20,
+      "seeks": 20,
+      "uncovered_partitions": 28,
+      "uncovered_share": 0.557214
+    },
+    {
+      "budget": 20,
+      "channels": {
+        "rare-supplement": 8,
+        "representative": 12
+      },
+      "elapsed_ms": 14.5,
+      "estimates": {
+        "estimable": true,
+        "kinds": {
+          "add_to_cart": {
+            "estimate": 0.0,
+            "full": 29924,
+            "observed_any_channel": 0,
+            "observed_representative": 0,
+            "relative_error": -1.0
+          },
+          "black_friday_doorbuster": {
+            "estimate": 31736.84,
+            "full": 1038,
+            "observed_any_channel": 2,
+            "observed_representative": 1,
+            "relative_error": 29.575
+          },
+          "chargeback_trace": {
+            "estimate": 0.0,
+            "full": 160,
+            "observed_any_channel": 1,
+            "observed_representative": 0,
+            "relative_error": -1.0
+          },
+          "checkout": {
+            "estimate": 42315.79,
+            "full": 21771,
+            "observed_any_channel": 2,
+            "observed_representative": 2,
+            "relative_error": 0.9437
+          },
+          "experiment_exposure": {
+            "estimate": 0.0,
+            "full": 7759,
+            "observed_any_channel": 0,
+            "observed_representative": 0,
+            "relative_error": -1.0
+          },
+          "fraud_flag": {
+            "estimate": 0.0,
+            "full": 832,
+            "observed_any_channel": 1,
+            "observed_representative": 0,
+            "relative_error": -1.0
+          },
+          "holiday_delivery_estimate": {
+            "estimate": 0.0,
+            "full": 373,
+            "observed_any_channel": 1,
+            "observed_representative": 0,
+            "relative_error": -1.0
+          },
+          "page_view": {
+            "estimate": 63473.68,
+            "full": 155544,
+            "observed_any_channel": 2,
+            "observed_representative": 2,
+            "relative_error": -0.5919
+          },
+          "pii_redaction_audit": {
+            "estimate": 0.0,
+            "full": 144,
+            "observed_any_channel": 1,
+            "observed_representative": 0,
+            "relative_error": -1.0
+          },
+          "purchase": {
+            "estimate": 0.0,
+            "full": 15593,
+            "observed_any_channel": 0,
+            "observed_representative": 0,
+            "relative_error": -1.0
+          },
+          "quarantine_replay": {
+            "estimate": 0.0,
+            "full": 205,
+            "observed_any_channel": 1,
+            "observed_representative": 0,
+            "relative_error": -1.0
+          },
+          "refund": {
+            "estimate": 0.0,
+            "full": 4396,
+            "observed_any_channel": 0,
+            "observed_representative": 0,
+            "relative_error": -1.0
+          },
+          "schema_migration": {
+            "estimate": 0.0,
+            "full": 511,
+            "observed_any_channel": 1,
+            "observed_representative": 0,
+            "relative_error": -1.0
+          },
+          "search": {
+            "estimate": 163973.68,
+            "full": 56238,
+            "observed_any_channel": 7,
+            "observed_representative": 7,
+            "relative_error": 1.9157
+          },
+          "session_end": {
+            "estimate": 0.0,
+            "full": 6369,
+            "observed_any_channel": 0,
+            "observed_representative": 0,
+            "relative_error": -1.0
+          },
+          "shadow_replay": {
+            "estimate": 0.0,
+            "full": 33,
+            "observed_any_channel": 1,
+            "observed_representative": 0,
+            "relative_error": -1.0
+          },
+          "vendor_timeout": {
+            "estimate": 0.0,
+            "full": 610,
+            "observed_any_channel": 0,
+            "observed_representative": 0,
+            "relative_error": -1.0
+          }
+        }
+      },
+      "lines_read": 42,
+      "method": "stratified_rare",
+      "new_kinds": [],
+      "planned": 20,
+      "rare_kinds": [
+        "black_friday_doorbuster",
+        "chargeback_trace",
+        "fraud_flag",
+        "holiday_delivery_estimate",
+        "pii_redaction_audit",
+        "quarantine_replay",
+        "schema_migration",
+        "shadow_replay",
+        "vendor_timeout"
+      ],
+      "rare_observed": [
+        "black_friday_doorbuster",
+        "chargeback_trace",
+        "fraud_flag",
+        "holiday_delivery_estimate",
+        "pii_redaction_audit",
+        "quarantine_replay",
+        "schema_migration",
+        "shadow_replay"
+      ],
+      "read_amplification": 2.1,
+      "rows": 20,
+      "seeks": 20,
+      "uncovered_partitions": 34,
+      "uncovered_share": 0.676617
+    },
+    {
+      "budget": 20,
+      "channels": {
+        "kind-stratum": 20
+      },
+      "elapsed_ms": 21.9,
+      "estimates": {
+        "estimable": false,
+        "kinds": {}
+      },
+      "lines_read": 20,
+      "method": "kind",
+      "new_kinds": [],
+      "planned": 20,
+      "rare_kinds": [],
+      "rare_observed": [],
+      "read_amplification": 1.0,
+      "rows": 20,
+      "seeks": 20,
+      "uncovered_partitions": 42,
+      "uncovered_share": 0.850746
+    },
+    {
+      "budget": 20,
+      "channels": {
+        "uniform": 20
+      },
+      "elapsed_ms": 7.8,
+      "estimates": {
+        "estimable": true,
+        "kinds": {
+          "add_to_cart": {
+            "estimate": 36161.21,
+            "full": 29924,
+            "observed_any_channel": 2,
+            "observed_representative": 2,
+            "relative_error": 0.2084
+          },
+          "black_friday_doorbuster": {
+            "estimate": 0.0,
+            "full": 1038,
+            "observed_any_channel": 0,
+            "observed_representative": 0,
+            "relative_error": -1.0
+          },
+          "chargeback_trace": {
+            "estimate": 0.0,
+            "full": 160,
+            "observed_any_channel": 0,
+            "observed_representative": 0,
+            "relative_error": -1.0
+          },
+          "checkout": {
+            "estimate": 0.0,
+            "full": 21771,
+            "observed_any_channel": 0,
+            "observed_representative": 0,
+            "relative_error": -1.0
+          },
+          "experiment_exposure": {
+            "estimate": 0.0,
+            "full": 7759,
+            "observed_any_channel": 0,
+            "observed_representative": 0,
+            "relative_error": -1.0
+          },
+          "fraud_flag": {
+            "estimate": 16436.92,
+            "full": 832,
+            "observed_any_channel": 1,
+            "observed_representative": 1,
+            "relative_error": 18.7559
+          },
+          "holiday_delivery_estimate": {
+            "estimate": 0.0,
+            "full": 373,
+            "observed_any_channel": 0,
+            "observed_representative": 0,
+            "relative_error": -1.0
+          },
+          "page_view": {
+            "estimate": 104726.64,
+            "full": 155544,
+            "observed_any_channel": 7,
+            "observed_representative": 7,
+            "relative_error": -0.3267
+          },
+          "pii_redaction_audit": {
+            "estimate": 0.0,
+            "full": 144,
+            "observed_any_channel": 0,
+            "observed_representative": 0,
+            "relative_error": -1.0
+          },
+          "purchase": {
+            "estimate": 13149.53,
+            "full": 15593,
+            "observed_any_channel": 1,
+            "observed_representative": 1,
+            "relative_error": -0.1567
+          },
+          "quarantine_replay": {
+            "estimate": 0.0,
+            "full": 205,
+            "observed_any_channel": 0,
+            "observed_representative": 0,
+            "relative_error": -1.0
+          },
+          "refund": {
+            "estimate": 0.0,
+            "full": 4396,
+            "observed_any_channel": 0,
+            "observed_representative": 0,
+            "relative_error": -1.0
+          },
+          "schema_migration": {
+            "estimate": 0.0,
+            "full": 511,
+            "observed_any_channel": 0,
+            "observed_representative": 0,
+            "relative_error": -1.0
+          },
+          "search": {
+            "estimate": 98151.87,
+            "full": 56238,
+            "observed_any_channel": 7,
+            "observed_representative": 7,
+            "relative_error": 0.7453
+          },
+          "session_end": {
+            "estimate": 19724.3,
+            "full": 6369,
+            "observed_any_channel": 1,
+            "observed_representative": 1,
+            "relative_error": 2.0969
+          },
+          "shadow_replay": {
+            "estimate": 0.0,
+            "full": 33,
+            "observed_any_channel": 0,
+            "observed_representative": 0,
+            "relative_error": -1.0
+          },
+          "vendor_timeout": {
+            "estimate": 13149.53,
+            "full": 610,
+            "observed_any_channel": 1,
+            "observed_representative": 1,
+            "relative_error": 20.5566
+          }
+        }
+      },
+      "lines_read": 80,
+      "method": "uniform",
+      "new_kinds": [],
+      "planned": 20,
+      "rare_kinds": [],
+      "rare_observed": [],
+      "read_amplification": 4.0,
+      "rows": 20,
+      "seeks": 20,
+      "uncovered_partitions": 34,
+      "uncovered_share": 0.676617
+    },
+    {
+      "budget": 20,
+      "channels": {
+        "head": 20
+      },
+      "elapsed_ms": 3.7,
+      "estimates": {
+        "estimable": false,
+        "kinds": {}
+      },
+      "lines_read": 20,
+      "method": "head",
+      "new_kinds": [],
+      "planned": 20,
+      "rare_kinds": [],
+      "rare_observed": [],
+      "read_amplification": 1.0,
+      "rows": 20,
+      "seeks": 0,
+      "uncovered_partitions": 47,
+      "uncovered_share": 0.9801
+    },
+    {
+      "budget": 200,
+      "channels": {
+        "representative": 200
+      },
+      "elapsed_ms": 18.8,
+      "estimates": {
+        "estimable": true,
+        "kinds": {
+          "add_to_cart": {
+            "estimate": 34275.0,
+            "full": 29924,
+            "observed_any_channel": 24,
+            "observed_representative": 24,
+            "relative_error": 0.1454
+          },
+          "black_friday_doorbuster": {
+            "estimate": 2790.0,
+            "full": 1038,
+            "observed_any_channel": 2,
+            "observed_representative": 2,
+            "relative_error": 1.6879
+          },
+          "chargeback_trace": {
+            "estimate": 0.0,
+            "full": 160,
+            "observed_any_channel": 0,
+            "observed_representative": 0,
+            "relative_error": -1.0
+          },
+          "checkout": {
+            "estimate": 19815.0,
+            "full": 21771,
+            "observed_any_channel": 13,
+            "observed_representative": 13,
+            "relative_error": -0.0898
+          },
+          "experiment_exposure": {
+            "estimate": 7575.0,
+            "full": 7759,
+            "observed_any_channel": 5,
+            "observed_representative": 5,
+            "relative_error": -0.0237
+          },
+          "fraud_flag": {
+            "estimate": 2040.0,
+            "full": 832,
+            "observed_any_channel": 1,
+            "observed_representative": 1,
+            "relative_error": 1.4519
+          },
+          "holiday_delivery_estimate": {
+            "estimate": 0.0,
+            "full": 373,
+            "observed_any_channel": 0,
+            "observed_representative": 0,
+            "relative_error": -1.0
+          },
+          "page_view": {
+            "estimate": 155235.0,
+            "full": 155544,
+            "observed_any_channel": 101,
+            "observed_representative": 101,
+            "relative_error": -0.002
+          },
+          "pii_redaction_audit": {
+            "estimate": 0.0,
+            "full": 144,
+            "observed_any_channel": 0,
+            "observed_representative": 0,
+            "relative_error": -1.0
+          },
+          "purchase": {
+            "estimate": 21735.0,
+            "full": 15593,
+            "observed_any_channel": 14,
+            "observed_representative": 14,
+            "relative_error": 0.3939
+          },
+          "quarantine_replay": {
+            "estimate": 0.0,
+            "full": 205,
+            "observed_any_channel": 0,
+            "observed_representative": 0,
+            "relative_error": -1.0
+          },
+          "refund": {
+            "estimate": 6660.0,
+            "full": 4396,
+            "observed_any_channel": 5,
+            "observed_representative": 5,
+            "relative_error": 0.515
+          },
+          "schema_migration": {
+            "estimate": 0.0,
+            "full": 511,
+            "observed_any_channel": 0,
+            "observed_representative": 0,
+            "relative_error": -1.0
+          },
+          "search": {
+            "estimate": 45660.0,
+            "full": 56238,
+            "observed_any_channel": 31,
+            "observed_representative": 31,
+            "relative_error": -0.1881
+          },
+          "session_end": {
+            "estimate": 4275.0,
+            "full": 6369,
+            "observed_any_channel": 3,
+            "observed_representative": 3,
+            "relative_error": -0.3288
+          },
+          "shadow_replay": {
+            "estimate": 0.0,
+            "full": 33,
+            "observed_any_channel": 0,
+            "observed_representative": 0,
+            "relative_error": -1.0
+          },
+          "vendor_timeout": {
+            "estimate": 1440.0,
+            "full": 610,
+            "observed_any_channel": 1,
+            "observed_representative": 1,
+            "relative_error": 1.3607
+          }
+        }
+      },
+      "lines_read": 874,
+      "method": "stratified",
+      "new_kinds": [],
+      "planned": 200,
+      "rare_kinds": [],
+      "rare_observed": [],
+      "read_amplification": 4.37,
+      "rows": 200,
+      "seeks": 200,
+      "uncovered_partitions": 0,
+      "uncovered_share": 0.0
+    },
+    {
+      "budget": 200,
+      "channels": {
+        "rare-supplement": 80,
+        "representative": 120
+      },
+      "elapsed_ms": 28.8,
+      "estimates": {
+        "estimable": true,
+        "kinds": {
+          "add_to_cart": {
+            "estimate": 14807.32,
+            "full": 29924,
+            "observed_any_channel": 6,
+            "observed_representative": 6,
+            "relative_error": -0.5052
+          },
+          "black_friday_doorbuster": {
+            "estimate": 4269.39,
+            "full": 1038,
+            "observed_any_channel": 10,
+            "observed_representative": 1,
+            "relative_error": 3.1131
+          },
+          "chargeback_trace": {
+            "estimate": 0.0,
+            "full": 160,
+            "observed_any_channel": 9,
+            "observed_representative": 0,
+            "relative_error": -1.0
+          },
+          "checkout": {
+            "estimate": 29546.86,
+            "full": 21771,
+            "observed_any_channel": 12,
+            "observed_representative": 12,
+            "relative_error": 0.3572
+          },
+          "experiment_exposure": {
+            "estimate": 16535.4,
+            "full": 7759,
+            "observed_any_channel": 7,
+            "observed_representative": 7,
+            "relative_error": 1.1311
+          },
+          "fraud_flag": {
+            "estimate": 1626.43,
+            "full": 832,
+            "observed_any_channel": 10,
+            "observed_representative": 1,
+            "relative_error": 0.9548
+          },
+          "holiday_delivery_estimate": {
+            "estimate": 0.0,
+            "full": 373,
+            "observed_any_channel": 9,
+            "observed_representative": 0,
+            "relative_error": -1.0
+          },
+          "page_view": {
+            "estimate": 158611.09,
+            "full": 155544,
+            "observed_any_channel": 65,
+            "observed_representative": 65,
+            "relative_error": 0.0197
+          },
+          "pii_redaction_audit": {
+            "estimate": 0.0,
+            "full": 144,
+            "observed_any_channel": 9,
+            "observed_representative": 0,
+            "relative_error": -1.0
+          },
+          "purchase": {
+            "estimate": 13282.54,
+            "full": 15593,
+            "observed_any_channel": 6,
+            "observed_representative": 6,
+            "relative_error": -0.1482
+          },
+          "quarantine_replay": {
+            "estimate": 0.0,
+            "full": 205,
+            "observed_any_channel": 9,
+            "observed_representative": 0,
+            "relative_error": -1.0
+          },
+          "refund": {
+            "estimate": 5150.37,
+            "full": 4396,
+            "observed_any_channel": 2,
+            "observed_representative": 2,
+            "relative_error": 0.1716
+          },
+          "schema_migration": {
+            "estimate": 0.0,
+            "full": 511,
+            "observed_any_channel": 9,
+            "observed_representative": 0,
+            "relative_error": -1.0
+          },
+          "search": {
+            "estimate": 51978.08,
+            "full": 56238,
+            "observed_any_channel": 18,
+            "observed_representative": 18,
+            "relative_error": -0.0757
+          },
+          "session_end": {
+            "estimate": 5692.52,
+            "full": 6369,
+            "observed_any_channel": 2,
+            "observed_representative": 2,
+            "relative_error": -0.1062
+          },
+          "shadow_replay": {
+            "estimate": 0.0,
+            "full": 33,
+            "observed_any_channel": 9,
+            "observed_representative": 0,
+            "relative_error": -1.0
+          },
+          "vendor_timeout": {
+            "estimate": 0.0,
+            "full": 610,
+            "observed_any_channel": 8,
+            "observed_representative": 0,
+            "relative_error": -1.0
+          }
+        }
+      },
+      "lines_read": 620,
+      "method": "stratified_rare",
+      "new_kinds": [],
+      "planned": 200,
+      "rare_kinds": [
+        "black_friday_doorbuster",
+        "chargeback_trace",
+        "fraud_flag",
+        "holiday_delivery_estimate",
+        "pii_redaction_audit",
+        "quarantine_replay",
+        "schema_migration",
+        "shadow_replay",
+        "vendor_timeout"
+      ],
+      "rare_observed": [
+        "black_friday_doorbuster",
+        "chargeback_trace",
+        "fraud_flag",
+        "holiday_delivery_estimate",
+        "pii_redaction_audit",
+        "quarantine_replay",
+        "schema_migration",
+        "shadow_replay",
+        "vendor_timeout"
+      ],
+      "read_amplification": 3.1,
+      "rows": 200,
+      "seeks": 200,
+      "uncovered_partitions": 0,
+      "uncovered_share": 0.0
+    },
+    {
+      "budget": 200,
+      "channels": {
+        "kind-stratum": 200
+      },
+      "elapsed_ms": 39.1,
+      "estimates": {
+        "estimable": false,
+        "kinds": {}
+      },
+      "lines_read": 200,
+      "method": "kind",
+      "new_kinds": [],
+      "planned": 200,
+      "rare_kinds": [],
+      "rare_observed": [],
+      "read_amplification": 1.0,
+      "rows": 200,
+      "seeks": 200,
+      "uncovered_partitions": 11,
+      "uncovered_share": 0.218905
+    },
+    {
+      "budget": 200,
+      "channels": {
+        "uniform": 200
+      },
+      "elapsed_ms": 15.0,
+      "estimates": {
+        "estimable": true,
+        "kinds": {
+          "add_to_cart": {
+            "estimate": 35040.0,
+            "full": 29924,
+            "observed_any_channel": 23,
+            "observed_representative": 23,
+            "relative_error": 0.171
+          },
+          "black_friday_doorbuster": {
+            "estimate": 2790.0,
+            "full": 1038,
+            "observed_any_channel": 2,
+            "observed_representative": 2,
+            "relative_error": 1.6879
+          },
+          "chargeback_trace": {
+            "estimate": 0.0,
+            "full": 160,
+            "observed_any_channel": 0,
+            "observed_representative": 0,
+            "relative_error": -1.0
+          },
+          "checkout": {
+            "estimate": 19740.0,
+            "full": 21771,
+            "observed_any_channel": 13,
+            "observed_representative": 13,
+            "relative_error": -0.0933
+          },
+          "experiment_exposure": {
+            "estimate": 4560.0,
+            "full": 7759,
+            "observed_any_channel": 3,
+            "observed_representative": 3,
+            "relative_error": -0.4123
+          },
+          "fraud_flag": {
+            "estimate": 1575.0,
+            "full": 832,
+            "observed_any_channel": 1,
+            "observed_representative": 1,
+            "relative_error": 0.893
+          },
+          "holiday_delivery_estimate": {
+            "estimate": 1275.0,
+            "full": 373,
+            "observed_any_channel": 1,
+            "observed_representative": 1,
+            "relative_error": 2.4182
+          },
+          "page_view": {
+            "estimate": 146535.0,
+            "full": 155544,
+            "observed_any_channel": 97,
+            "observed_representative": 97,
+            "relative_error": -0.0579
+          },
+          "pii_redaction_audit": {
+            "estimate": 0.0,
+            "full": 144,
+            "observed_any_channel": 0,
+            "observed_representative": 0,
+            "relative_error": -1.0
+          },
+          "purchase": {
+            "estimate": 21945.0,
+            "full": 15593,
+            "observed_any_channel": 15,
+            "observed_representative": 15,
+            "relative_error": 0.4074
+          },
+          "quarantine_replay": {
+            "estimate": 0.0,
+            "full": 205,
+            "observed_any_channel": 0,
+            "observed_representative": 0,
+            "relative_error": -1.0
+          },
+          "refund": {
+            "estimate": 3300.0,
+            "full": 4396,
+            "observed_any_channel": 2,
+            "observed_representative": 2,
+            "relative_error": -0.2493
+          },
+          "schema_migration": {
+            "estimate": 0.0,
+            "full": 511,
+            "observed_any_channel": 0,
+            "observed_representative": 0,
+            "relative_error": -1.0
+          },
+          "search": {
+            "estimate": 58380.0,
+            "full": 56238,
+            "observed_any_channel": 39,
+            "observed_representative": 39,
+            "relative_error": 0.0381
+          },
+          "session_end": {
+            "estimate": 5100.0,
+            "full": 6369,
+            "observed_any_channel": 3,
+            "observed_representative": 3,
+            "relative_error": -0.1992
+          },
+          "shadow_replay": {
+            "estimate": 0.0,
+            "full": 33,
+            "observed_any_channel": 0,
+            "observed_representative": 0,
+            "relative_error": -1.0
+          },
+          "vendor_timeout": {
+            "estimate": 1260.0,
+            "full": 610,
+            "observed_any_channel": 1,
+            "observed_representative": 1,
+            "relative_error": 1.0656
+          }
+        }
+      },
+      "lines_read": 893,
+      "method": "uniform",
+      "new_kinds": [],
+      "planned": 200,
+      "rare_kinds": [],
+      "rare_observed": [],
+      "read_amplification": 4.465,
+      "rows": 200,
+      "seeks": 200,
+      "uncovered_partitions": 0,
+      "uncovered_share": 0.0
+    },
+    {
+      "budget": 200,
+      "channels": {
+        "head": 200
+      },
+      "elapsed_ms": 5.0,
+      "estimates": {
+        "estimable": false,
+        "kinds": {}
+      },
+      "lines_read": 200,
+      "method": "head",
+      "new_kinds": [],
+      "planned": 200,
+      "rare_kinds": [],
+      "rare_observed": [],
+      "read_amplification": 1.0,
+      "rows": 200,
+      "seeks": 0,
+      "uncovered_partitions": 47,
+      "uncovered_share": 0.9801
+    },
+    {
+      "budget": 1200,
+      "channels": {
+        "representative": 1200
+      },
+      "elapsed_ms": 25.6,
+      "estimates": {
+        "estimable": true,
+        "kinds": {
+          "add_to_cart": {
+            "estimate": 32897.14,
+            "full": 29924,
+            "observed_any_channel": 131,
+            "observed_representative": 131,
+            "relative_error": 0.0994
+          },
+          "black_friday_doorbuster": {
+            "estimate": 1032.0,
+            "full": 1038,
+            "observed_any_channel": 4,
+            "observed_representative": 4,
+            "relative_error": -0.0058
+          },
+          "chargeback_trace": {
+            "estimate": 0.0,
+            "full": 160,
+            "observed_any_channel": 0,
+            "observed_representative": 0,
+            "relative_error": -1.0
+          },
+          "checkout": {
+            "estimate": 23169.43,
+            "full": 21771,
+            "observed_any_channel": 92,
+            "observed_representative": 92,
+            "relative_error": 0.0642
+          },
+          "experiment_exposure": {
+            "estimate": 9033.64,
+            "full": 7759,
+            "observed_any_channel": 36,
+            "observed_representative": 36,
+            "relative_error": 0.1643
+          },
+          "fraud_flag": {
+            "estimate": 765.0,
+            "full": 832,
+            "observed_any_channel": 3,
+            "observed_representative": 3,
+            "relative_error": -0.0805
+          },
+          "holiday_delivery_estimate": {
+            "estimate": 512.14,
+            "full": 373,
+            "observed_any_channel": 2,
+            "observed_representative": 2,
+            "relative_error": 0.373
+          },
+          "page_view": {
+            "estimate": 151426.07,
+            "full": 155544,
+            "observed_any_channel": 602,
+            "observed_representative": 602,
+            "relative_error": -0.0265
+          },
+          "pii_redaction_audit": {
+            "estimate": 0.0,
+            "full": 144,
+            "observed_any_channel": 0,
+            "observed_representative": 0,
+            "relative_error": -1.0
+          },
+          "purchase": {
+            "estimate": 17253.64,
+            "full": 15593,
+            "observed_any_channel": 69,
+            "observed_representative": 69,
+            "relative_error": 0.1065
+          },
+          "quarantine_replay": {
+            "estimate": 510.0,
+            "full": 205,
+            "observed_any_channel": 2,
+            "observed_representative": 2,
+            "relative_error": 1.4878
+          },
+          "refund": {
+            "estimate": 4005.0,
+            "full": 4396,
+            "observed_any_channel": 16,
+            "observed_representative": 16,
+            "relative_error": -0.0889
+          },
+          "schema_migration": {
+            "estimate": 252.0,
+            "full": 511,
+            "observed_any_channel": 1,
+            "observed_representative": 1,
+            "relative_error": -0.5068
+          },
+          "search": {
+            "estimate": 56611.93,
+            "full": 56238,
+            "observed_any_channel": 226,
+            "observed_representative": 226,
+            "relative_error": 0.0066
+          },
+          "session_end": {
+            "estimate": 3540.0,
+            "full": 6369,
+            "observed_any_channel": 14,
+            "observed_representative": 14,
+            "relative_error": -0.4442
+          },
+          "shadow_replay": {
+            "estimate": 0.0,
+            "full": 33,
+            "observed_any_channel": 0,
+            "observed_representative": 0,
+            "relative_error": -1.0
+          },
+          "vendor_timeout": {
+            "estimate": 492.0,
+            "full": 610,
+            "observed_any_channel": 2,
+            "observed_representative": 2,
+            "relative_error": -0.1934
+          }
+        }
+      },
+      "lines_read": 5326,
+      "method": "stratified",
+      "new_kinds": [],
+      "planned": 1200,
+      "rare_kinds": [],
+      "rare_observed": [],
+      "read_amplification": 4.438,
+      "rows": 1200,
+      "seeks": 1193,
+      "uncovered_partitions": 0,
+      "uncovered_share": 0.0
+    },
+    {
+      "budget": 1200,
+      "channels": {
+        "rare-supplement": 108,
+        "representative": 1092
+      },
+      "elapsed_ms": 29.6,
+      "estimates": {
+        "estimable": true,
+        "kinds": {
+          "add_to_cart": {
+            "estimate": 32835.56,
+            "full": 29924,
+            "observed_any_channel": 119,
+            "observed_representative": 119,
+            "relative_error": 0.0973
+          },
+          "black_friday_doorbuster": {
+            "estimate": 1686.08,
+            "full": 1038,
+            "observed_any_channel": 18,
+            "observed_representative": 6,
+            "relative_error": 0.6244
+          },
+          "chargeback_trace": {
+            "estimate": 0.0,
+            "full": 160,
+            "observed_any_channel": 12,
+            "observed_representative": 0,
+            "relative_error": -1.0
+          },
+          "checkout": {
+            "estimate": 19947.08,
+            "full": 21771,
+            "observed_any_channel": 72,
+            "observed_representative": 72,
+            "relative_error": -0.0838
+          },
+          "experiment_exposure": {
+            "estimate": 6032.63,
+            "full": 7759,
+            "observed_any_channel": 22,
+            "observed_representative": 22,
+            "relative_error": -0.2225
+          },
+          "fraud_flag": {
+            "estimate": 1681.77,
+            "full": 832,
+            "observed_any_channel": 18,
+            "observed_representative": 6,
+            "relative_error": 1.0214
+          },
+          "holiday_delivery_estimate": {
+            "estimate": 286.36,
+            "full": 373,
+            "observed_any_channel": 13,
+            "observed_representative": 1,
+            "relative_error": -0.2323
+          },
+          "page_view": {
+            "estimate": 144939.11,
+            "full": 155544,
+            "observed_any_channel": 525,
+            "observed_representative": 525,
+            "relative_error": -0.0682
+          },
+          "pii_redaction_audit": {
+            "estimate": 290.77,
+            "full": 144,
+            "observed_any_channel": 13,
+            "observed_representative": 1,
+            "relative_error": 1.0192
+          },
+          "purchase": {
+            "estimate": 16779.69,
+            "full": 15593,
+            "observed_any_channel": 61,
+            "observed_representative": 61,
+            "relative_error": 0.0761
+          },
+          "quarantine_replay": {
+            "estimate": 278.18,
+            "full": 205,
+            "observed_any_channel": 13,
+            "observed_representative": 1,
+            "relative_error": 0.357
+          },
+          "refund": {
+            "estimate": 3303.77,
+            "full": 4396,
+            "observed_any_channel": 12,
+            "observed_representative": 12,
+            "relative_error": -0.2485
+          },
+          "schema_migration": {
+            "estimate": 280.0,
+            "full": 511,
+            "observed_any_channel": 13,
+            "observed_representative": 1,
+            "relative_error": -0.4521
+          },
+          "search": {
+            "estimate": 65731.94,
+            "full": 56238,
+            "observed_any_channel": 238,
+            "observed_representative": 238,
+            "relative_error": 0.1688
+          },
+          "session_end": {
+            "estimate": 6892.05,
+            "full": 6369,
+            "observed_any_channel": 25,
+            "observed_representative": 25,
+            "relative_error": 0.0821
+          },
+          "shadow_replay": {
+            "estimate": 0.0,
+            "full": 33,
+            "observed_any_channel": 12,
+            "observed_representative": 0,
+            "relative_error": -1.0
+          },
+          "vendor_timeout": {
+            "estimate": 535.0,
+            "full": 610,
+            "observed_any_channel": 14,
+            "observed_representative": 2,
+            "relative_error": -0.123
+          }
+        }
+      },
+      "lines_read": 5063,
+      "method": "stratified_rare",
+      "new_kinds": [],
+      "planned": 1200,
+      "rare_kinds": [
+        "black_friday_doorbuster",
+        "chargeback_trace",
+        "fraud_flag",
+        "holiday_delivery_estimate",
+        "pii_redaction_audit",
+        "quarantine_replay",
+        "schema_migration",
+        "shadow_replay",
+        "vendor_timeout"
+      ],
+      "rare_observed": [
+        "black_friday_doorbuster",
+        "chargeback_trace",
+        "fraud_flag",
+        "holiday_delivery_estimate",
+        "pii_redaction_audit",
+        "quarantine_replay",
+        "schema_migration",
+        "shadow_replay",
+        "vendor_timeout"
+      ],
+      "read_amplification": 4.219,
+      "rows": 1200,
+      "seeks": 1198,
+      "uncovered_partitions": 0,
+      "uncovered_share": 0.0
+    },
+    {
+      "budget": 1200,
+      "channels": {
+        "kind-stratum": 1200
+      },
+      "elapsed_ms": 46.4,
+      "estimates": {
+        "estimable": false,
+        "kinds": {}
+      },
+      "lines_read": 1200,
+      "method": "kind",
+      "new_kinds": [],
+      "planned": 1200,
+      "rare_kinds": [],
+      "rare_observed": [],
+      "read_amplification": 1.0,
+      "rows": 1200,
+      "seeks": 1200,
+      "uncovered_partitions": 0,
+      "uncovered_share": 0.0
+    },
+    {
+      "budget": 1200,
+      "channels": {
+        "uniform": 1200
+      },
+      "elapsed_ms": 24.8,
+      "estimates": {
+        "estimable": true,
+        "kinds": {
+          "add_to_cart": {
+            "estimate": 30647.57,
+            "full": 29924,
+            "observed_any_channel": 122,
+            "observed_representative": 122,
+            "relative_error": 0.0242
+          },
+          "black_friday_doorbuster": {
+            "estimate": 762.0,
+            "full": 1038,
+            "observed_any_channel": 3,
+            "observed_representative": 3,
+            "relative_error": -0.2659
+          },
+          "chargeback_trace": {
+            "estimate": 255.0,
+            "full": 160,
+            "observed_any_channel": 1,
+            "observed_representative": 1,
+            "relative_error": 0.5938
+          },
+          "checkout": {
+            "estimate": 24051.21,
+            "full": 21771,
+            "observed_any_channel": 96,
+            "observed_representative": 96,
+            "relative_error": 0.1047
+          },
+          "experiment_exposure": {
+            "estimate": 7303.5,
+            "full": 7759,
+            "observed_any_channel": 29,
+            "observed_representative": 29,
+            "relative_error": -0.0587
+          },
+          "fraud_flag": {
+            "estimate": 769.5,
+            "full": 832,
+            "observed_any_channel": 3,
+            "observed_representative": 3,
+            "relative_error": -0.0751
+          },
+          "holiday_delivery_estimate": {
+            "estimate": 517.5,
+            "full": 373,
+            "observed_any_channel": 2,
+            "observed_representative": 2,
+            "relative_error": 0.3874
+          },
+          "page_view": {
+            "estimate": 157308.0,
+            "full": 155544,
+            "observed_any_channel": 626,
+            "observed_representative": 626,
+            "relative_error": 0.0113
+          },
+          "pii_redaction_audit": {
+            "estimate": 0.0,
+            "full": 144,
+            "observed_any_channel": 0,
+            "observed_representative": 0,
+            "relative_error": -1.0
+          },
+          "purchase": {
+            "estimate": 16552.5,
+            "full": 15593,
+            "observed_any_channel": 66,
+            "observed_representative": 66,
+            "relative_error": 0.0615
+          },
+          "quarantine_replay": {
+            "estimate": 255.0,
+            "full": 205,
+            "observed_any_channel": 1,
+            "observed_representative": 1,
+            "relative_error": 0.2439
+          },
+          "refund": {
+            "estimate": 5542.5,
+            "full": 4396,
+            "observed_any_channel": 22,
+            "observed_representative": 22,
+            "relative_error": 0.2608
+          },
+          "schema_migration": {
+            "estimate": 495.0,
+            "full": 511,
+            "observed_any_channel": 2,
+            "observed_representative": 2,
+            "relative_error": -0.0313
+          },
+          "search": {
+            "estimate": 51238.93,
+            "full": 56238,
+            "observed_any_channel": 204,
+            "observed_representative": 204,
+            "relative_error": -0.0889
+          },
+          "session_end": {
+            "estimate": 5297.79,
+            "full": 6369,
+            "observed_any_channel": 21,
+            "observed_representative": 21,
+            "relative_error": -0.1682
+          },
+          "shadow_replay": {
+            "estimate": 0.0,
+            "full": 33,
+            "observed_any_channel": 0,
+            "observed_representative": 0,
+            "relative_error": -1.0
+          },
+          "vendor_timeout": {
+            "estimate": 504.0,
+            "full": 610,
+            "observed_any_channel": 2,
+            "observed_representative": 2,
+            "relative_error": -0.1738
+          }
+        }
+      },
+      "lines_read": 5445,
+      "method": "uniform",
+      "new_kinds": [],
+      "planned": 1200,
+      "rare_kinds": [],
+      "rare_observed": [],
+      "read_amplification": 4.537,
+      "rows": 1200,
+      "seeks": 1196,
+      "uncovered_partitions": 0,
+      "uncovered_share": 0.0
+    },
+    {
+      "budget": 1200,
+      "channels": {
+        "head": 1200
+      },
+      "elapsed_ms": 8.4,
+      "estimates": {
+        "estimable": false,
+        "kinds": {}
+      },
+      "lines_read": 1200,
+      "method": "head",
+      "new_kinds": [],
+      "planned": 1200,
+      "rare_kinds": [],
+      "rare_observed": [],
+      "read_amplification": 1.0,
+      "rows": 1200,
+      "seeks": 0,
+      "uncovered_partitions": 47,
+      "uncovered_share": 0.9801
+    }
+  ],
+  "notes": {
+    "estimates": "Hájek weighted estimates from representative/uniform rows only; rare-supplement rows are coverage, not population estimates.",
+    "head": "non-probability; no estimates column is meaningful.",
+    "read_budget": "lines_read counts physical NDJSON lines touched; seeks counts byte seeks.  Full scan of this snapshot would read 301500 lines."
+  },
+  "population": 301500,
+  "snapshot_id": "21f36e3415a83c6229e535c3"
+}
